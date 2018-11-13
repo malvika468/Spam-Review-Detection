@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="IR_GUI">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-csv-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/Desktop/IRproject_jar/commons-csv-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-snowball-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/Desktop/IRproject_jar/lucene-snowball-2.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="opencsv-3.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/Desktop/IRproject_jar/opencsv-3.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-string-similarity-0.13.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/Desktop/IRproject_jar/java-string-similarity-0.13.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stanford-postagger-3.7.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/Desktop/IRproject_jar/stanford-postagger-3.7.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="IR_GUI"/>
+        <property name="java-output-path" value="/IR_GUI/build/classes"/>
+    </wb-module>
+</project-modules>
